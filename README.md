@@ -1,17 +1,17 @@
 -----
 
-# Eklavya  AI: The Intelligent Study Planner 📚
+# Eklavya AI: Your Personal Learning Roadmap Generator 🗺️
 
-An intelligent learning roadmap generator that creates personalized, hierarchical study paths, provides curated resources, and generates comprehensive PDF notes.
+An intelligent learning assistant that creates personalized, hierarchical study paths for **any topic**, provides curated resources, and generates comprehensive PDF notes.
 
 **Project Context:** This tool was developed as a proof-of-concept during **Samadhan 2.0**, a national-level hackathon organized by India's Ministry of Education and AICTE. The hackathon challenged innovators to build solutions ("Samadhan") for student-centric problems. This standalone application was originally designed as a core feature for a larger, full-stack learning platform but was completed in this form due to the time constraints of the event.
 
 ## Features ✨
 
-  - **AI-Powered Hierarchical Roadmaps**: Creates detailed, nested learning paths in the style of roadmap.sh using the Google Gemini AI model.
-  - **Interactive Visual Tree**: Displays the roadmap as a clickable, easy-to-read visual flowchart with adjustable height and orientation.
-  - **Curated Learning Resources**: For each topic, it provides:
-      - The top-viewed YouTube tutorial via the YouTube Data API.
+  - **AI-Powered Hierarchical Roadmaps**: Enter any subject, skill, or topic, and the AI generates a detailed, nested learning path in the style of roadmap.sh.
+  - **Interactive Visual Tree**: Displays the roadmap as a clickable, easy-to-read visual flowchart.
+  - **Curated Learning Resources**: For each topic in the roadmap, the app provides:
+      - The top-viewed YouTube tutorial.
       - A list of the top online articles from a live Google Search.
   - **AI-Generated PDF Study Notes**: Creates comprehensive, well-structured notes for any topic, formatted into a professional PDF document for offline study.
 
@@ -86,7 +86,7 @@ SEARCH_ENGINE_ID = "your-search-engine-id"
     streamlit run app.py
     ```
 
-2.  Enter any JEE topic (e.g., "Fluid Mechanics," "Calculus").
+2.  Enter any topic you want to learn (e.g., "Machine Learning," "History of Rome," "Quantum Physics").
 
 3.  Click "Generate My Study Roadmap."
 
