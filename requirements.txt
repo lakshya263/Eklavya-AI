@@ -1,0 +1,9 @@
+streamlit
+google-generativeai
+google-api-python-client
+streamlit-mermaid
+youtube-transcript-api
+reportlab
+Pillow
+yt-dlp
+pytube

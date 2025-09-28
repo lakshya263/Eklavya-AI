@@ -1,0 +1,43 @@
+{
+  "name": "jee-roadmap-fullstack",
+  "version": "1.0.0",
+  "description": "AI JEE Roadmap Generator - React + Node.js Full-Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm run setup:backend && npm run setup:frontend",
+    "setup:backend": "cd backend && npm install",
+    "setup:frontend": "cd frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "test": "cd frontend && npm test",
+    "clean": "rimraf backend/node_modules frontend/node_modules",
+    "install:all": "npm install && npm run setup"
+  },
+  "keywords": [
+    "jee",
+    "ai", 
+    "roadmap",
+    "education",
+    "react",
+    "nodejs",
+    "gemini",
+    "learning"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "rimraf": "^5.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/jee-roadmap-react"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/jee-roadmap-react/issues"
+  },
+  "homepage": "https://github.com/yourusername/jee-roadmap-react#readme"
+}
