@@ -1,6 +1,6 @@
 -----
 
-# GuruPath AI: The Intelligent Study Planner 📚
+# Eklavya  AI: The Intelligent Study Planner 📚
 
 An intelligent learning roadmap generator that creates personalized, hierarchical study paths, provides curated resources, and generates comprehensive PDF notes.
 
