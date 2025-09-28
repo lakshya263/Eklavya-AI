@@ -1,8 +1,8 @@
 -----
 
-# GuruPath AI: The Intelligent JEE Study Planner 📚
+# GuruPath AI: The Intelligent Study Planner 📚
 
-An intelligent learning roadmap generator that creates personalized, hierarchical study paths for JEE (Joint Entrance Examination) topics, provides curated resources, and generates comprehensive PDF notes.
+An intelligent learning roadmap generator that creates personalized, hierarchical study paths, provides curated resources, and generates comprehensive PDF notes.
 
 **Project Context:** This tool was developed as a proof-of-concept during **Samadhan 2.0**, a national-level hackathon organized by India's Ministry of Education and AICTE. The hackathon challenged innovators to build solutions ("Samadhan") for student-centric problems. This standalone application was originally designed as a core feature for a larger, full-stack learning platform but was completed in this form due to the time constraints of the event.
 
